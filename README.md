@@ -1,4 +1,4 @@
-# 🧬 Healthcare ETL: Serverless AWS Data Pipeline (Terraform + Glue + Athena)
+# 🧬 Healthcare ETL: Serverless AWS Data Pipeline
 
 This project demonstrates an **end-to-end, event-driven ETL pipeline** on AWS built entirely with **Terraform**.  
 When a healthcare CSV file is uploaded to an S3 bucket, the pipeline automatically:
