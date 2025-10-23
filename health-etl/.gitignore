@@ -1,0 +1,68 @@
+# ===============================
+# Terraform
+# ===============================
+# Local state
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform working dirs
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files (never commit secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.plan
+
+# Local env files
+.env
+.env.*
+
+# ===============================
+# Python / Glue script
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.zip
+
+# Local scripts / tests
+venv/
+.env/
+build/
+dist/
+
+# ===============================
+# Mac / Editor / System
+# ===============================
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# ===============================
+# AWS / Credentials (critical)
+# ===============================
+# Never commit keys or profiles
+.aws/
+credentials
+config
+
+# ===============================
+# Optional local artifacts
+# ===============================
+start_glue_job.zip
+sample.csv
